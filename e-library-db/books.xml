@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><all-books>
+<book>
+    <id>1</id>
+    <name>Harry Potter and the Philosopher's Stone</name>
+    <author>J.K.Rowling</author>
+    <genre>Fantasy</genre>
+    <description>Harry Potter has been living a..</description>
+</book>
+<book>
+    <id>2</id>
+    <name>The Witcher. The Last Wish</name>
+    <author>Andrzej Sapkowski</author>
+    <genre>Fantasy</genre>
+    <description>The King of Temeria, Foltest, has..</description>
+</book>
+<book>
+    <id>3</id>
+    <name>The Master and Margarita</name>
+    <author>Mikhail Bulgakov</author>
+    <genre>Supernatural</genre>
+    <description>The novel has two settings.</description>
+</book>
+<book>
+    <id>4</id>
+    <name>Twin Peaks: The Final Dossier</name>
+    <author>Mark Frost</author>
+    <genre>Epistolary novel</genre>
+    <description>Unlike Secret History, which..</description>
+</book>
+<book>
+    <id>5</id>
+    <name>Nineteen Eighty-Four</name>
+    <author>George Orwell</author>
+    <genre>Dystopian</genre>
+    <description>In the year 1984, civilization..</description>
+</book>
+<book>
+    <id>6</id>
+    <name>Surely You're Joking, Mr. Feynman!</name>
+    <author>Richard Feynman and Ralph Leighton</author>
+    <genre>Autobiography</genre>
+    <description>The book has many stories..</description>
+</book>
+<book>
+    <id>7</id>
+    <name>Brief Answers to the Big Questions</name>
+    <author>Stephen Hawking</author>
+    <genre>Non-fiction</genre>
+    <description>The book is divided into..</description>
+</book>
+</all-books>

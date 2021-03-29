@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><all-db-tables>
+
+    <db-table name="users" table-file="d:/e-library-db/users.xml">
+    <max-id-value>11</max-id-value>
+    </db-table>
+    
+    <db-table name="books" table-file="d:/e-library-db/books.xml">
+    <max-id-value>7</max-id-value>
+    </db-table>
+    
+    <db-table name="description" table-file="d:/e-library-db/description.xml">
+    <max-id-value>10</max-id-value>
+    </db-table>
+    
+    <db-table name="authors" table-file="d:/e-library-db/authors.xml">
+    <max-id-value>7</max-id-value>
+    </db-table>
+    
+    
+</all-db-tables>

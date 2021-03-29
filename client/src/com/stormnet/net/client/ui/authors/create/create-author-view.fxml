@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.geometry.Insets?>
+<GridPane fx:controller="com.stormnet.net.client.ui.authors.create.CreateAuthorController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+<padding>
+    <Insets top="25" right="25" bottom="10" left="25"/>
+</padding>
+
+<Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+<TextField disable="true" fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+<Label text="Full Name:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+<TextField fx:id="fullNameField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+<Label text="Profile:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+<TextArea fx:id="profileArea" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+
+<HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="1" GridPane.rowIndex="6">
+
+    <Button text="Save Author" onAction="#saveAuthorBtnPressed" />
+
+    <Button text="Cancel" onAction="#cancelBtnPressed" />
+
+</HBox>
+</GridPane>

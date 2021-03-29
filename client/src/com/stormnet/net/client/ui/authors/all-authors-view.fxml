@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<GridPane fx:controller="com.stormnet.net.client.ui.authors.AllAuthorsController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+<padding>
+    <Insets top="25" right="25" bottom="10" left="25"/>
+</padding>
+
+    <HBox spacing="10" alignment="BOTTOM_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <Button text="Add Author" onAction="#addAuthorBtnPressed" />
+    </HBox>
+
+
+    <HBox spacing="10" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="3">
+        <Label text="List of Authors:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    </HBox>
+
+    <HBox spacing="1500" alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="4">
+
+        <TableView fx:id="allAuthorsTable">
+            <columns>
+                <TableColumn prefWidth="30.0" text="ID">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="id"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="300.0" text="Full Name">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="fullName"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="700.0" text="Profile">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="profile"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </HBox>
+
+    <HBox spacing="10" alignment="BOTTOM_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="5">
+        <Button text="Close" onAction="#closeBtnPressed" />
+    </HBox>
+
+</GridPane>

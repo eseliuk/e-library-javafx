@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<GridPane fx:controller="com.stormnet.net.client.ui.users.AllUsersController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <padding>
+        <Insets top="15" right="15" bottom="10" left="15"/>
+    </padding>
+
+    <HBox spacing="10" alignment="BOTTOM_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Button text="Add user" onAction="#addUserBtnPressed" />
+    </HBox>
+    <HBox spacing="10" alignment="BOTTOM_RIGHT" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <Button text="Logout" onAction="#logoutBtnPressed" />
+    </HBox>
+
+    <HBox spacing="10" alignment="BASELINE_LEFT" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <Label text="List of Users:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    </HBox>
+
+    <HBox spacing="1500" alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="3">
+
+        <TableView fx:id="allUsersTable">
+            <columns>
+                <TableColumn prefWidth="40.0" text="ID">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="id"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="200.0" text="Email">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="email"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="120.0" text="First Name">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="firstName"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="120.0" text="Last Name">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="lastName"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn prefWidth="230.0" text="Date Of Birth">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="dateOfBirth"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </HBox>
+
+</GridPane>

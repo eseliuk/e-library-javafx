@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><all-users>
+<user><id>1</id><email>nnikolaev@gmail.com</email><password>12345</password><firstName>Nikolai</firstName><lastName>Nikolaev</lastName><dateOfBirth>1983-01-20</dateOfBirth></user>
+<user><id>2</id><email>iivanov@gmail.com</email><password>12345</password><firstName>Ivan</firstName><lastName>Ivanov</lastName><dateOfBirth>1983-01-20</dateOfBirth></user>
+<user><id>3</id><email>ppetrov@mail.ru</email><password>12345</password><firstName>Petr</firstName><lastName>Petrov</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>4</id><email>aartemov@gmail.com</email><password>12345</password><firstName>Artem</firstName><lastName>Artemov</lastName><dateOfBirth>2021-03-08</dateOfBirth></user>
+<user><id>5</id><email>rromanov@gmail.com</email><password>12345</password><firstName>Roman</firstName><lastName>Romanov</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>6</id><email>ppavlov@gmail.com</email><password>12345</password><firstName>Pavel</firstName><lastName>Pavlov</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>7</id><email>ffedorov@gmail.com</email><password>12345</password><firstName>Fedor</firstName><lastName>Fedorov</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>8</id><email>hpotter@gmail.com</email><password>12345</password><firstName>Harry</firstName><lastName>Potter</lastName><dateOfBirth>2021-03-10</dateOfBirth></user>
+<user><id>9</id><email>rweasley@gmail.com</email><password>12345</password><firstName>Ronald</firstName><lastName>Weasley</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>10</id><email>hgranger@gmail.com</email><password>12345</password><firstName>Hermione</firstName><lastName>Granger</lastName><dateOfBirth>2021-03-01</dateOfBirth></user>
+<user><id>11</id><email>s</email><password>s</password><firstName>test</firstName><lastName>test</lastName><dateOfBirth>2021-03-01</dateOfBirth></user></all-users>
